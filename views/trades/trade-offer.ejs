@@ -1,0 +1,50 @@
+<%- include ('../partials/header.ejs')%>
+<section>
+  <div class="trade">
+    <div class="row">
+      <div class="col-4 mb-100">
+        <div class="event-heading">
+          <h3 class="dis-in-bl">Yours Trades for offer</h3>
+        </div>
+        <% if(availableTrades.length){ %>
+        <form style="float: left">
+          <table>
+            <tr>
+              <th></th>
+              <th style="width: 70%">Trade Name</th>
+              <th style="width: 15%">Category</th>
+              <th style="width: 15%">Status</th>
+            </tr>
+            <%for( category in categories ){ let tradesByCategory =
+            availableTrades.filter((trade)=>trade.category==categories[category]).sort((t1,t2)=>t1.price-t2.price)
+            tradesByCategory.forEach(trade => { %>
+            <tr>
+              <td>
+                <input type="radio" id="id" name="id" value="<%=trade._id%>" />
+              </td>
+              <td><%= trade.title %></td>
+              <td><%= trade.category %></td>
+              <td><%= trade.status %></td>
+            </tr>
+            <% });} %>
+          </table>
+
+          <button
+            class="edit_button"
+            type="submit"
+            formmethod="POST"
+            formaction="/users/offer/<%= trade._id %>"
+          >
+            Trade
+          </button>
+        </form>
+        <% } else { %>
+        <p style="margin: 20px auto; width: 95%">
+          There are no product available to trade
+        </p>
+        <% } %>
+      </div>
+    </div>
+  </div>
+</section>
+<%- include('../partials/footer.ejs')%>

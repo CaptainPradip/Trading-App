@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iNiner Household Goods Trade</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="/js/custom.js"></script>
+  </head>
+  <body>
+    <div class="top-nav">
+      <div class="logo">
+          <a href="/">
+            <img
+              class="logo-img"
+              src="/images/6843237-logo.jpeg"
+              alt="logo"
+          /></a>
+      </div>
+      <div class="brand">
+        <a href="/" class="brand-name">iNiner Household Goods Trade</a>
+      </div>
+      <div class="right-align">
+        <nav class="nav justify-content-center">
+          <% if(!user){ %>
+            <a class="nav-link" href="/users/login">Login</a>
+            <a class="nav-link" href="/users/new">Sign Up</a>
+            <% } else { %>
+          <a class="nav-link" href="/trades/new">Start Trading!</a>
+         
+          <a class="nav-link" href='/users/profile'>Profile</a>
+          <a class="nav-link" href='/users/logout'>Logout</a>
+          <% } %>
+        </nav>
+      </div>
+    </div>
+    <div class="sec-nav">
+      <a class="sec-link" href="/trades">Trades</a>
+      <% if(user){ %>
+      <a href="/users/profile" class="sec-link" style="margin: 0;float: right;">Welcome <%=firstName%> !!!</a>
+      <% } %>
+    </div>
+    
+    <% if(errorMessages.length > 0) {%>
+      <% errorMessages.forEach(message=>{%>
+          <div class='error-section'>
+              <%=message%>
+          </div>
+      <%});%>
+  <%}%>
+  
+  <% if(successMessages.length > 0) {%>
+      <% successMessages.forEach(message=>{%>
+          <div class='success-section'>
+              <%=message%>
+          </div>
+      <%});%>
+  <%}%>

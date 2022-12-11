@@ -1,0 +1,279 @@
+.top-nav {
+    background-color: #313132;
+    overflow: hidden;
+    height: 60px;
+    z-index: 5;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #f5f5f7;
+}
+
+.logo {
+    display: inline;
+    float: left;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.sec-nav {
+    background-color: #313132;
+    overflow: hidden;
+    height: 30px;
+    text-align: left;
+    padding: 15px;
+}
+
+.sec-link {
+    margin: 0 auto;
+    margin: 15px;
+    color: #f5f5f7;
+}
+
+
+.logo-img {
+    height: 60px;
+    width: 300px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #f5f5f7;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 15px;
+}
+
+.brand {
+    display: inline;
+}
+
+.brand-name {
+    font-size: 50px;
+    color: #f5f5f7;
+    ;
+}
+
+a {
+    text-decoration: none;
+    color: #313132;
+    text-align: center;
+}
+
+.footer {
+    background-color: #313132;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    color: #f5f5f7;
+}
+
+.right-align {
+    float: right;
+    text-align: center;
+    padding: 15px 15px;
+}
+
+.footer-left-align {
+    float: left;
+    text-align: center;
+    padding: 15px 15px;
+}
+
+.footer-right-align {
+    float: right;
+    text-align: center;
+    padding: 15px 15px;
+}
+
+.category-heading {
+    padding: 1%;
+}
+
+.col-0 {
+    float: left;
+    width: 10%;
+    padding: 2%;
+}
+
+.col-1 {
+    float: left;
+    width: 20%;
+    padding: 2%;
+}
+
+.col-2 {
+    float: left;
+    width: 40%;
+    padding: 2%;
+}
+
+.col-3 {
+    float: left;
+    width: 60%;
+    padding: 1% 2%;
+}
+
+.col-4 {
+    float: left;
+    width: 80%;
+    padding: 1%;
+}
+
+.col {
+    float: left;
+    width: 100%;
+    padding: 1% 2%;
+}
+
+.row {
+    margin: 0 -5px;
+    padding: 0% 5% 0% 5%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.card-img {
+    width: 100%;
+    height: 400px;
+}
+.trade-img{
+width: 100px;
+height: 100px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.info {
+    height: 500px;
+    text-align: left;
+    margin-top: 10%;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #aeadad;
+    border-radius: 4px;
+    resize: vertical;
+}
+input[type=number] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #aeadad;
+    border-radius: 4px;
+    resize: vertical;
+}
+input[type=email] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #aeadad;
+    border-radius: 4px;
+    resize: vertical;
+}
+input[type=password] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #aeadad;
+    border-radius: 4px;
+    resize: vertical;
+}
+label {
+    padding: 10px 10px 10px 0;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.submit_button {
+    background-color: #04AA6D;
+    color: #f1f1f1;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 8%;
+}
+.delete_button {
+    background-color:rgb(205, 6, 6);
+    color: #f1f1f1;
+    padding: 10px 15px;
+    border-radius: 4px;
+    border: none;
+}
+.edit_button {
+    background-color: #04AA6D;
+    color: #f1f1f1;
+    padding: 10px 15px;
+    border-radius: 4px;
+    border: none;
+}
+.manage_button {
+    background-color: #aa9904;
+    color: #f1f1f1;
+    padding: 10px 15px;
+    border-radius: 4px;
+    border: none;
+}
+.watch_button {
+    background-color: #0481aa;
+    color: #f1f1f1;
+    padding: 10px 15px;
+    border-radius: 4px;
+    border: none;
+}
+.watch_button:hover {
+    background-color: #2b94b8;
+}
+.submit_button:hover {
+    background-color: #45a049;
+}
+
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+.error-section {
+    padding: 10px;
+    text-align: center;
+    background-color: #f50000;
+    color: white;
+  }
+.success-section {
+    padding: 10px;
+    text-align: center;
+    background-color:#45a049;
+    color: white;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }

@@ -1,0 +1,77 @@
+<%- include ('../partials/header.ejs')%>
+<div class="row">
+  <form enctype="multipart/form-data" method="POST" action="/trades/<%=trade.id%>?_method=PUT">
+    <div class="col-4">
+      <div class="row">
+        <div class="col-0">
+          <label for="category">Category</label>
+        </div>
+        <div class="col-3">
+          <select class="form-control" name="category" id="category" value="<%=trade.category%>" required>
+            <%for( category in categories ){ 
+              var selected = (categories[category] == trade.category ) ? "selected" : "";%>
+            <option value="<%=categories[category]%>" <%=selected %>><%= categories[category] %>
+            </option>
+            <%}%>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-0">
+          <label for="title">Title</label>
+        </div>
+        <div class="col-3">
+          <input
+            required
+            type="text"
+            id="title"
+            name="title"
+            value="<%=trade.title%>"
+            placeholder="Enter the Title"
+            />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-0">
+          <label for="owner">Trading Price</label>
+        </div>
+        <div class="col-3">
+          <input required type="number" min ="0" id="price" name="price" value="<%=trade.price%>" placeholder="Enter the Price" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-0">
+          <label for="details">Details</label>
+        </div>
+        <div class="col-3">
+          <textarea required id="details" name="details" placeholder="Write Details.." style="height: 200px">
+<%=trade.details%></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-0">
+          <label for="details">image</label>
+        </div>
+        <div class="col-3">
+          <div class="form-group">
+            <label for=""></label>
+            <input type="file" class="form-control-file" name="imageName" id="tradeimage" placeholder="Select image" aria-describedby="trade image" />
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <input type="submit" class="submit_button" value="Update Trade" />
+          <input type="reset" class="submit_button" value="reset" />
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+<br />
+<br />
+<br />
+<br />
+<br />
+
+<%- include ('../partials/footer.ejs')%>

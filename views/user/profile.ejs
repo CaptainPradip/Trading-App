@@ -1,0 +1,145 @@
+<%- include('../partials/header.ejs')%>
+<section>
+<div class="row">
+  <div class="col-4 mb-100">
+    <div class="event-heading">
+      <h3 class="dis-in-bl">Yours Trades</h3>
+    </div>
+    <% if(trades.length){ %>
+    <table>
+      <tr>
+        <th style="width: 45%">Trade Name</th>
+        <th style="width: 15%">Category</th>
+        <th style="width: 15%">Status</th>
+        <th style="width: 25%">Action</th>
+      </tr>
+      <%for( category in categories ){ let tradesByCategory =
+      trades.filter((trade)=>trade.category==categories[category]).sort((t1,t2)=>t1.price-t2.price)
+      tradesByCategory.forEach(trade => { %>
+      <tr>
+        <td><%= trade.title %></td>
+        <td><%= trade.category %></td>
+        <td><%= trade.status %></td>
+        <td>
+          <form style="float: left">
+            <button
+              class="edit_button"
+              type="submit"
+              formmethod="GET"
+              formaction="/trades/<%= trade._id %>/edit"
+            >
+              Edit
+            </button>
+            <button
+              class="delete_button"
+              type="submit"
+              formmethod="POST"
+              formaction="/users/delete-trades/<%= trade._id %>?_method=DELETE"
+            >
+              Delete
+            </button>
+            <%if(trade.status=="Offer Pending"){%>
+            <button
+              class="manage_button"
+              type="submit"
+              formmethod="POST"
+              formaction="/users/trades/offer/<%= trade._id %>?_method=GET"
+            >
+              Manage Offer
+            </button>
+            <%}%>
+          </form>
+        </td>
+      </tr>
+      <% });} %>
+    </table>
+    <% } else { %>
+    <p style="margin: 20px auto; width: 95%">There are no Trades to display.</p>
+    <% } %>
+  </div>
+
+</div>
+<div class="row">
+    <div class="col-4 mb-100">
+    <div class="event-heading">
+      <h3 class="dis-in-bl">Your Offers</h3>
+    </div>
+    <% if(tradesOffers.length){ %>
+    <table>
+      <tr>
+        <th style="width: 65%">Trade Name</th>
+        <th style="width: 15%">Status</th>
+        <th style="width: 30%">Action</th>
+      </tr>
+      <%for( category in categories ){ 
+      let tradesByCategory =
+      tradesOffers.filter((tradesOffer)=>tradesOffer.requestTrade.category==categories[category]).sort((t1,t2)=>t1.price-t2.price)
+      tradesByCategory.forEach(tradesOffer => { %>
+      <tr>
+        <td><%= tradesOffer.requestTrade.title %></td>
+        <td><%= tradesOffer.requestTrade.status %></td>
+        <td>
+          <form style="float: left">
+            <button
+              class="delete_button"
+              type="submit"
+              formmethod="POST"
+              formaction="/users/offer/<%= tradesOffer._id %>?_method=DELETE"
+            >
+            Cancel Offer
+            </button>
+          </form>
+        </td>
+      </tr>
+      <% });} %>
+    </table>
+    <% } else { %>
+    <p style="margin: 20px auto; width: 95%">There are no Offers to display.</p>
+    <% } %>
+  </div>
+</div>
+<div class="row"> 
+    <div class="col-4 mb-100">
+    <div class="event-heading">
+      <h3 class="dis-in-bl">Your Watch List</h3>
+    </div>
+    <% if(tradesWatch.length){ %>
+    <table>
+      <tr>
+        <th style="width: 70%">Trade Name</th>
+        <th style="width: 15%">Category</th>
+        <th style="width: 15%">Action</th>
+      </tr>
+      <%for( category in categories ){ let tradesByCategory =
+        tradesWatch.filter((trade)=>trade.watchedTrade.category==categories[category]).sort((t1,t2)=>t1.price-t2.price)
+      // console.log(tradesByCategory..sort((t1,t2)=>t1.title-t2.title));
+      tradesByCategory.forEach(trade => { %>
+      <tr>
+        <td><%= trade.watchedTrade.title %></td>
+        <td><%= trade.watchedTrade.category %></td>
+        <td>
+          <form style="float: left">
+            <button
+              class="delete_button"
+              type="submit"
+              formmethod="POST"
+              formaction="/users/watch/<%= trade.watchedTrade._id %>?_method=DELETE"
+            >
+              unwatch
+            </button>
+          </form>
+        </td>
+      </tr>
+      <% });} %>
+    </table>
+    <% } else { %>
+    <p style="margin: 20px auto; width: 95%">There are no watch listed product to display.</p>
+    <% } %>
+  </div>
+</div>
+</section>
+<br>
+<br>
+<br>
+<br>
+<%- include('../partials/footer.ejs')%>

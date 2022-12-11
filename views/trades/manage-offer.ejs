@@ -1,0 +1,63 @@
+<%- include('../partials/header.ejs')%>
+<div class="row">
+  <div class="col-4 mb-100">
+    <div class="event-heading">
+      <h3 class="dis-in-bl">Manage Your Request</h3>
+    </div>
+    <table>
+      <tr>
+        <th style="width: 40%">Trade With</th>
+        <th style="width: 40%">Requested Trade</th>
+        <th style="width: 20%">Action</th>
+      </tr>
+      <tr>
+        <td>
+          <div class="col-1">
+              <img
+                src="/images/<%=tradeOffer.tradeWith.imageName %>"
+                alt=""
+                class="trade-img"
+              />
+              <p><%=tradeOffer.tradeWith.title %></p>
+              <p class="price">$<%=tradeOffer.tradeWith.price %></p>
+          </div>
+        </td>
+        <td>
+          <div class="col-1">
+              <img
+                src="/images/<%=tradeOffer.requestTrade.imageName %>"
+                alt=""
+                class="trade-img"
+              />
+              <p><%=tradeOffer.requestTrade.title %></p>
+              <p class="price">$<%=tradeOffer.requestTrade.price %></p>
+          </div>
+        </td>
+        <td>
+          <form style="float: left">
+          <%if(tradeOffer.requestUser!=user){%>
+            <button
+              class="edit_button"
+              type="submit"
+              formmethod="POST"
+              formaction="/users/offer/<%= tradeOffer._id %>?_method=PUT"
+            >
+              Approve
+            </button>
+            <%}%>
+            <button
+              class="delete_button"
+              type="submit"
+              formmethod="POST"
+              formaction="/users/offer/<%= tradeOffer._id %>?_method=DELETE"
+            >
+              Cancel
+            </button>
+
+          </form>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
+<%- include('../partials/footer.ejs')%>
