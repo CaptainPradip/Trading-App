@@ -19,3 +19,6 @@ exports.deleteById = function (id) {
 exports.deleteByIdAndUserId = function (tradeId,userId) {
   return TradeWatch.deleteMany({watchedTrade:tradeId,watchedBy:userId});
 }
+exports.deleteByTradeId = function (tradeId) {
+  return TradeWatch.deleteMany({watchedTrade:tradeId});
+}

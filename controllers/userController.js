@@ -91,7 +91,7 @@ exports.showTrades = async (req, res, next) => {
 exports.deleteTrades = async (req, res, next) => {
     let id = req.params.id;
     let tradeOffer = await tradesOffer_service.findByTradeWithIdOrRequestTradeId(id);
-    console.log(tradeOffer);
+    let wishList = await tradesWatch_service.deleteByTradeId(id);
     if(tradeOffer){
         let trade = await tradesOffer_service.deleteByRequestTradeIdAndTradeWithId(tradeOffer.requestTrade._id, tradeOffer.tradeWith._id);
         await trades_service.updateById(tradeOffer.requestTrade._id, { status: "Available" });

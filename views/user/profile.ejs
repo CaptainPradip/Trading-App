@@ -107,7 +107,7 @@
     <table>
       <tr>
         <th style="width: 70%">Trade Name</th>
-        <th style="width: 15%">Category</th>
+        <th style="width: 15%">Status</th>
         <th style="width: 15%">Action</th>
       </tr>
       <%for( category in categories ){ let tradesByCategory =
@@ -116,7 +116,7 @@
       tradesByCategory.forEach(trade => { %>
       <tr>
         <td><%= trade.watchedTrade.title %></td>
-        <td><%= trade.watchedTrade.category %></td>
+        <td><%= trade.watchedTrade.status %></td>
         <td>
           <form style="float: left">
             <button
