@@ -3,7 +3,11 @@
   <div class="trade">
     <div class="row">
       <div class="col-1">
-        <img src="../images/<%=trade.imageName%>" alt="<%=trade.imageName%>" class="card-img" />
+        <img
+          src="../images/<%=trade.imageName%>"
+          alt="<%=trade.imageName%>"
+          class="card-img"
+        />
       </div>
       <div class="col-2">
         <h1><%=trade.title%></h1>
@@ -11,34 +15,52 @@
       </div>
       <% if(user != trade.owner._id) { %>
       <div class="col-1">
-       <h3 style="color: burlywood;">Are You interested in this household product?</h3>
-       <form>
-        <div class="row">
-          <div class="col-4">
-            <%if(!offeredTrade){%>
-            <button class="submit_button" type="submit" formmethod="GET" formaction="/users/trades/<%=trade.id%>">
-              trade
-            </button>
-            <%}else{%>
-            <button class="delete_button" class="delete_button"
-            type="submit"
-            formmethod="POST"
-            formaction="/users/offer/<%= offeredTrade._id %>?_method=DELETE">
-              Cancel Offer
-            </button>
-            <%}%>
-            <%if(!watchedTrade){%>
-            <button class="watch_button" type="submit" formmethod="POST" formaction="/trades/watch/<%=trade.id%>">
-              watch
-            </button>
-            <%}else{%>
-            <button class="watch_button" type="submit" formmethod="POST" formaction="/trades/watch/<%=trade.id%>?_method=DELETE">
-              unwatch
-            </button>
-            <%}%>
+        <h3 style="color: burlywood">
+          Are You interested in this household product?
+        </h3>
+        <form>
+          <div class="row">
+            <div class="col-4">
+              <%if(!offeredTrade){%>
+              <button
+                class="submit_button"
+                type="submit"
+                formmethod="GET"
+                formaction="/users/trades/<%=trade.id%>"
+              >
+                trade
+              </button>
+              <%}else{%>
+              <button
+                class="delete_button"
+                type="submit"
+                formmethod="POST"
+                formaction="/users/offer/<%= offeredTrade._id %>?_method=DELETE"
+              >
+                Cancel Offer
+              </button>
+              <%}%> <%if(!watchedTrade){%>
+              <button
+                class="watch_button"
+                type="submit"
+                formmethod="POST"
+                formaction="/trades/watch/<%=trade.id%>"
+              >
+                watch
+              </button>
+              <%}else{%>
+              <button
+                class="watch_button"
+                type="submit"
+                formmethod="POST"
+                formaction="/trades/watch/<%=trade.id%>?_method=DELETE"
+              >
+                unwatch
+              </button>
+              <%}%>
+            </div>
           </div>
-        </div>
-      </form>
+        </form>
       </div>
       <% } %>
     </div>
@@ -55,10 +77,20 @@
   <form>
     <div class="row">
       <div class="col-4">
-        <button class="submit_button" type="submit" formmethod="GET" formaction="/trades/<%=trade.id%>/edit">
+        <button
+          class="submit_button"
+          type="submit"
+          formmethod="GET"
+          formaction="/trades/<%=trade.id%>/edit"
+        >
           Edit
         </button>
-        <button class="delete_button" type="submit" formmethod="POST" formaction="/trades/<%=trade.id%>?_method=DELETE">
+        <button
+          class="delete_button"
+          type="submit"
+          formmethod="POST"
+          formaction="/trades/<%=trade.id%>?_method=DELETE"
+        >
           Delete
         </button>
       </div>
