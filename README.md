@@ -1,5 +1,4 @@
 
-<img width="1728" alt="Screenshot 2022-12-12 at 10 07 33 AM" src="https://user-images.githubusercontent.com/24209468/207114480-9d6794ad-5ac0-4888-b3ab-0495dd8d029c.png">
 <img width="1728" alt="Screenshot 2022-12-12 at 10 07 28 AM" src="https://user-images.githubusercontent.com/24209468/207114488-5d88f47a-72ad-4887-9bba-8e0cc4a69187.png">
 <img width="1728" alt="Screenshot 2022-12-12 at 10 06 15 AM" src="https://user-images.githubusercontent.com/24209468/207114491-a0b283a8-01b8-4247-8e86-b16d7b697a7d.png">
 <<img width="1728" alt="Screenshot 2022-12-12 at 9 59 14 AM" src="https://user-images.githubusercontent.com/24209468/207114513-563160c6-99bf-49fe-b50d-dc6c185faab4.png">
