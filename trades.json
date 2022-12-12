@@ -1,5 +1,4 @@
-[
-  {
+[{
   "_id": {
     "$oid": "63837af04c933841b6dfe7b8"
   },
@@ -11,7 +10,7 @@
   "details": "Spill Proof Design - For hastle free cooking and a Cleaner Kitchen\\r\\nTri-Pin Burners - For high Efficiency and faster cooking\\r\\nErgonomic Design - For easy handling and Maintainance\\r\\nToughned Black Glass top - Resists Scratches and withstands everyday wear and tear\\r\\n2 Years Manufacturer Warranty\\r\\nMade In India\\r\\nIncludes: 1 x Prestige IRIS LP Gas Stove(GTI 03) With powder coated Body, Glass top, 3 Brass Burners(2 Medium, 1 Small)",
   "imageName": "614Q2qMRVBL._SL1500_.jpg",
   "price": 42,
-  "status":"Available",
+  "status": "Available",
   "createdAt": {
     "$date": {
       "$numberLong": "1669561072935"
@@ -19,7 +18,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1669561072935"
+      "$numberLong": "1670858354053"
     }
   }
 },{
@@ -34,7 +33,7 @@
   "details": "[CHARGE & SYNC FUNCTION]- This cable comes with charging & Data sync function\\r\\n[HIGH QUALITY MATERIAL]- TPE + Nylon Material to make sure that the life of the cable is enhanced significantly\\r\\n[LONG CORD]- The Cable is extra thick 1.2 meter long, optimized for an easy use for your comfort at home or office\\r\\n[MORE DURABLE]-This cable is unique interms of design and multi-use and is positioned to provide the best comfort and performance while using\\r\\n",
   "imageName": "51kNeFQyBoL._SL1200_.jpg",
   "price": 6323,
-  "status":"Available",
+  "status": "Available",
   "createdAt": {
     "$date": {
       "$numberLong": "1669561135038"
@@ -43,29 +42,6 @@
   "updatedAt": {
     "$date": {
       "$numberLong": "1669561135038"
-    }
-  }
-},{
-  "_id": {
-    "$oid": "63837b5f4c933841b6dfe7c0"
-  },
-  "category": "Electronic Equipment",
-  "title": "BESTOR® USB C Hub HDMI Adapter, 6 in 1 Type C Hub for MacBook pro to HDMI 4k,2 USB 3.0 Ports SD/TF Card Reader 55W PD,Compatible for USB C Laptops Nintendo and Other Type C Devices",
-  "owner": {
-    "$oid": "6382f02dcd69836f4ca74fb9"
-  },
-  "details": "[ALL IN ONE]:The 6-in-1 USB-C Hub instantly adds 2x USB 3.0 ports, 1x SD/TF Card Reader, 1x HDMI port, 1xUSB-C Female port and 1x USB-C Male port to your laptop with its convenient Plug-and-Play technology requiring no driver or software installations to work.\\r\\n[55W POWER DELIVERY SUPPORTED]: Equipped with the newest generation super-smart chip, Supports USB-C pass-through 55W charging. Allows USB-C device to be charged while using the USB-C hub at the same time. Our MacBook Pro USB C Adapter is designed to preventing overload, over-voltage, over-current, short circuit, overcharge, voltage regulation, temperature protection, your primary choice of USB C Adapter under safety.\\r\\n[VIDEO & AUDIO OUTPUT]: Mirror or extend your screen with the HDMI port to HDTV, monitor or projector for video and audio transfer. Support 4000x2000 4K@30Hz, and lower resolutions at 60Hz.\\r\\n[RELIABLE DATA TRANSFER]: The 6-in-1 USB-C Hub allows you to seamlessly transfer your data whether it be photos, videos, music and other files through its memory card and thumb drive slots. Connect to your external storage, keyboard, mouse, headset, optical drive, and more.\\r\\n[DEVICE COMPATIBILITY]: Compatible with MacBook 12\\\",MacBook Pro2016/2017/2018/2019,MacBook Air 2018/1019,iPad Pro2018,Chromebook,NINTENDO SWITCH,HUAWEI mate30/mate30 pro,Samsung S10/S9/Note8 /Note 9,HP SpectrePavilion,Huawei Matebook,Dell XPS series, Mi Air and supports Mobile phones and tablets with DP function",
-  "imageName": "61nryXGKMxL._SL1500_.jpg",
-  "price": 342,
-  "status":"Available",
-  "createdAt": {
-    "$date": {
-      "$numberLong": "1669561183809"
-    }
-  },
-  "updatedAt": {
-    "$date": {
-      "$numberLong": "1669561183809"
     }
   }
 },{
@@ -73,14 +49,14 @@
     "$oid": "63837ca94c933841b6dfe7ca"
   },
   "category": "Cleaning Supplies",
-  "title": "izga Essentials Professional 6-in-1 Cleaning Kit for Cameras & Sensitive Electronics",
+  "title": "izga Essentials Professional 6-in-1 Cleaning Kit for Cameras &amp; Sensitive Electronics",
   "owner": {
     "$oid": "6382f02dcd69836f4ca74fb9"
   },
-  "details": "6-in-1 cleaning kit, the 6-piece cleaning contains the essential items necessary for the proper maintenance and care of your optical equipment. It easily cleans dirt and dust. Effectively removes smudges and fingerprints from lenses, LCD and other optics.\\r\\nMultipurpose cleaning kit for digital cameras, DSLR, camcorders, filters, lenses, binoculars, LCD, Laptops and other sensitive electronics, etc\\r\\nIncludes: Powerful dust air blower, 10 cotton swabs, plush Micro-Fiber Cloth (160mm X 160 mm), Suede microfiber cloth (180mm x 155mm), dust removal antistatic cleaning brush, 25 ml lens cleaning solution",
+  "details": "6-in-1 cleaning kit, the 6-piece cleaning contains the essential items necessary for the proper maintenance and care of your optical equipment. It easily cleans dirt and dust. Effectively removes smudges and fingerprints from lenses, LCD and other optics.&amp;#x5C;r&amp;#x5C;nMultipurpose cleaning kit for digital cameras, DSLR, camcorders, filters, lenses, binoculars, LCD, Laptops and other sensitive electronics, etc&amp;#x5C;r&amp;#x5C;nIncludes: Powerful dust air blower, 10 cotton swabs, plush Micro-Fiber Cloth (160mm X 160 mm), Suede microfiber cloth (180mm x 155mm), dust removal antistatic cleaning brush, 25 ml lens cleaning solutiondsf",
   "imageName": "41GdkPjUtGS.jpg",
   "price": 426,
-  "status":"Available",
+  "status": "Available",
   "createdAt": {
     "$date": {
       "$numberLong": "1669561513476"
@@ -88,30 +64,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1669561967072"
-    }
-  }
-},{
-  "_id": {
-    "$oid": "63837cfb4c933841b6dfe7cd"
-  },
-  "category": "Dishes",
-  "title": "XIVYA Stainless Steel Kitchen Sink Dish Rack Drainer Dish",
-  "owner": {
-    "$oid": "6382f02dcd69836f4ca74fb9"
-  },
-  "details": "High Quality Stainless Steel Dish Drainer. Ideal for Storage of wet vessels. The Product in Display is Storage Basket or Dish Drainer Made of Stainless Steel and Finished in Silver Color and Ideal to keep Utensils.\\r\\nStainless steel Handles Gives You Perfect Grip, Very Unique and Attractive Design, Double Wired Circular Support For Superior Strength.",
-  "imageName": "41W2vH3qF6S.jpg",
-  "price": 546,
-  "status":"Available",
-  "createdAt": {
-    "$date": {
-      "$numberLong": "1669561595500"
-    }
-  },
-  "updatedAt": {
-    "$date": {
-      "$numberLong": "1669561595500"
+      "$numberLong": "1670858205081"
     }
   }
 },{
@@ -126,7 +79,7 @@
   "details": "1. WORKS LIKE A CHARM: The tip of the cleaning pen acts like a nib to clean the tiny parts and holes of the earplugs.\\r\\n2. SUPERIOR CLEANING: There's a soft microfiber brush just above the nib that goes deep to clean the tiny areas and holes.\\r\\n3. THOUGHTFULLY DESIGNED: At the other end of the pen is a soft, lightweight brush for cleaning the charging bin.\\r\\n4. ALL IN ONE: Clean a full set of wireless earplugs with one pen, from the hole in the earplug to the charging bin.\\r\\n5. LIGHTWEIGHT AND PORTABLE : Pen shape design, light weight, easy to carry.",
   "imageName": "21WPNlCLB-L.jpg",
   "price": 4232,
-  "status":"Available",
+  "status": "Available",
   "createdAt": {
     "$date": {
       "$numberLong": "1669561751528"
@@ -134,7 +87,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1669561917431"
+      "$numberLong": "1670858203500"
     }
   }
 },{
@@ -149,7 +102,7 @@
   "details": "High Density Brush: This 2-in-1 Cleaning Pen comes with a high density brush that helps clean the sensitive part of your electronic devices, be it the sound output area or the microphone.\\r\\nPrecision Metal Nib: The device has a sharp metal nib which allows covering deep corners and removing dirt from crevices and edges, ensuring a comprehensive cleaning\\r\\nSoft Sponge Brush: The soft sponge brush allows cleaning the inner body of the Earpod carrying case, and ensure that\\r\\nKeyboard Cleaning Brush: The cleaning brush with its soft bristles ensures that no dust particles remain in the devices, giving your electronics longer life and enhanced protection.",
   "imageName": "41j0V5w4zsL._SL1080_.jpg",
   "price": 3425,
-  "status":"Available",
+  "status": "Available",
   "createdAt": {
     "$date": {
       "$numberLong": "1669561826811"
@@ -157,7 +110,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1669561826811"
+      "$numberLong": "1670857551820"
     }
   }
 },{
@@ -172,7 +125,7 @@
   "details": "UNDER-SHELF ORGANIZER With cupboard space often at a premium, under-shelf organizer design makes use of unused space beneath the shelf. It features a clever, pull-out compartment that holds up to Six standard jars.\\r\\nPerfect for Jars This innovative rack features a clever, pull-out compartment that holds up to Six jars\\r\\nHigh Quality Premium food grade material makes this under cabinet drawer more durable. Easy to clean without absorbing stains or smells. NOTE: CANNOT BE USED IN DISHWASHER. Clean with warm soapy water.",
   "imageName": "717GYnb74cL._SL1500_.jpg",
   "price": 878,
-  "status":"Available",
+  "status": "Available",
   "createdAt": {
     "$date": {
       "$numberLong": "1669561896410"
@@ -181,6 +134,190 @@
   "updatedAt": {
     "$date": {
       "$numberLong": "1669561896410"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63973b0c459fd6638b7ec353"
+  },
+  "category": "Cleaning Supplies",
+  "title": "Oral-B Genius X Limited, Electric Toothbrush with Artificial Intelligence, 1 Replacement Brush Head, 1 Travel Case, Midnight Black",
+  "owner": {
+    "$oid": "63837d4c4c933841b6dfe7db"
+  },
+  "details": "Oral-B Genius X Limited with artificial intelligence has learned from thousands of human brushing behaviors and instantly recognizes your brushing style\r\nGives you daily personal coaching to cover all areas evenly, with the right amount of pressure for the right time\r\nBluetooth technology to connect it to your smartphone\r\nIncludes: Rechargeable handle, 1 brush head, a charger and a travel case (color may vary)",
+  "imageName": "718iGPGdiFL._SX679_.jpg",
+  "status": "Available",
+  "price": 2334,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1670855436078"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1670858205085"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63973b69459fd6638b7ec356"
+  },
+  "category": "Carpets",
+  "title": "Noahas Fluffy Bedroom Rug Carpet,4x5.3 Feet,Shaggy Fuzzy Rugs for Bedroom",
+  "owner": {
+    "$oid": "63837d4c4c933841b6dfe7db"
+  },
+  "details": "Material and Size: The carpet has super soft shaggy surface, non-slip plastic spots bottom, makes you feel like lying on the clouds, 4 feet x 5.3 feet &amp;#x2F; 48 inches x 64 inches, it&amp;#x27;s available in a choice of colors and sizes\r\nSuper Soft Feeling: Our shaggy and fluffy area rugs are elegant in texture and soft to the touch, this fluffy carpet provides a tranquil refuge for your family to rest their body and mind after a hectic day\r\nMulti-purpose: Embellish your floors with this shag rugs, it&amp;#x27;s a perfect home decor for bedroom, kids room, girls room, nursery room, college dorm living room or study room and harmoniously blend with most floors and furniture",
+  "imageName": "91eKfqtsTPL.__AC_SX300_SY300_QL70_FMwebp_.webp",
+  "status": "Available",
+  "price": 4235,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1670855529038"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1670855529038"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63973b9f459fd6638b7ec359"
+  },
+  "category": "Carpets",
+  "title": "Rug Furry Floor Carpet Modern Indoor Bedroom Decor Cute Boys Girls Room Rug, 4x5.3 Feet, Hot Pink",
+  "owner": {
+    "$oid": "63837d4c4c933841b6dfe7db"
+  },
+  "details": "Contracted Style: We are an advocate of minimalist design where every details should be purposeful and direct, we take advantage of the simple line and the single color to interpret the concept of the Modern area rugs\r\nEasy to Clean: Please try to shake off outdoors, hand wash or wipe clean with a wet rag, it&amp;#x27;s not shrink or fade after wash, airing is under ventilated place, drying machine is not allowed",
+  "imageName": "81i1zsX+b2L._AC_SX679_.jpg",
+  "status": "Available",
+  "price": 999,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1670855583075"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1670855583075"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63973c2c459fd6638b7ec390"
+  },
+  "category": "Carpets",
+  "title": "Ophanie Pink Rugs for Bedroom Girls, Kids Baby Shaggy Fluffy Cute Shag Fuzzy Soft Room Carpet,",
+  "owner": {
+    "$oid": "63837d4c4c933841b6dfe7db"
+  },
+  "details": "Ultra-soft area rug — Feature 1.57” shag carpet surface, the Ophanie soft area rug is incredibly soft with a high-density sponge interlayer. No more shedding faux fur and an upgraded non-slip bottom — The high-density small and durable anti-slip dots at the bottom enhances friction to prevent it from sliding. No need for an additional pad underneath. Please note: water under the rug can cause it to slip. Keep the bottom of the rug dry.",
+  "imageName": "81LhIBdQ5IL.__AC_SX300_SY300_QL70_FMwebp_.webp",
+  "status": "Available",
+  "price": 789,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1670855724118"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1670855724118"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63973d07459fd6638b7ec394"
+  },
+  "category": "Furniture",
+  "title": "Yaheetech Lift Top Coffee Table with Hidden Compartment and Storage Shelf, Rising Tabletop Dining Table for Living Room Reception Room",
+  "owner": {
+    "$oid": "63837d4c4c933841b6dfe7db"
+  },
+  "details": "【Lift-top Design】The tabletop of this coffee table can be effortlessly elevated to a comfortable height to create a spacious workspace or dining surface while you’re sitting on the sofa. The heavy-duty metal mechanism allows smooth and easy operation.\r\n【Multi-functional Table】This practical table is definitely a worthy investment for any limited space like small apartments, dorms, and dens. This piece is not just a coffee table, it also serves perfectly as a temporary dining table or a computer desk with an elevated floating tabletop.",
+  "imageName": "91IbS+5STrL._AC_SX679_.jpg",
+  "status": "Available",
+  "price": 865,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1670855943362"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1670858354051"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63837cfb4c933841b6dfe7cd"
+  },
+  "category": "Dishes",
+  "title": "XIVYA Stainless Steel Kitchen Sink Dish Rack Drainer Dish",
+  "owner": {
+    "$oid": "6382f02dcd69836f4ca74fb9"
+  },
+  "details": "High Quality Stainless Steel Dish Drainer. Ideal for Storage of wet vessels. The Product in Display is Storage Basket or Dish Drainer Made of Stainless Steel and Finished in Silver Color and Ideal to keep Utensils.\\r\\nStainless steel Handles Gives You Perfect Grip, Very Unique and Attractive Design, Double Wired Circular Support For Superior Strength.",
+  "imageName": "41W2vH3qF6S.jpg",
+  "price": 546,
+  "status": "Available",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1669561595500"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669561595500"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63837b5f4c933841b6dfe7c0"
+  },
+  "category": "Electronic Equipment",
+  "title": "BESTOR® USB C Hub HDMI Adapter, 6 in 1 Type C Hub for MacBook pro to HDMI 4k,2 USB 3.0 Ports SD/TF Card Reader 55W PD,Compatible for USB C Laptops Nintendo and Other Type C Devices",
+  "owner": {
+    "$oid": "6382f02dcd69836f4ca74fb9"
+  },
+  "details": "[ALL IN ONE]:The 6-in-1 USB-C Hub instantly adds 2x USB 3.0 ports, 1x SD/TF Card Reader, 1x HDMI port, 1xUSB-C Female port and 1x USB-C Male port to your laptop with its convenient Plug-and-Play technology requiring no driver or software installations to work.\\r\\n[55W POWER DELIVERY SUPPORTED]: Equipped with the newest generation super-smart chip, Supports USB-C pass-through 55W charging. Allows USB-C device to be charged while using the USB-C hub at the same time. Our MacBook Pro USB C Adapter is designed to preventing overload, over-voltage, over-current, short circuit, overcharge, voltage regulation, temperature protection, your primary choice of USB C Adapter under safety.\\r\\n[VIDEO & AUDIO OUTPUT]: Mirror or extend your screen with the HDMI port to HDTV, monitor or projector for video and audio transfer. Support 4000x2000 4K@30Hz, and lower resolutions at 60Hz.\\r\\n[RELIABLE DATA TRANSFER]: The 6-in-1 USB-C Hub allows you to seamlessly transfer your data whether it be photos, videos, music and other files through its memory card and thumb drive slots. Connect to your external storage, keyboard, mouse, headset, optical drive, and more.\\r\\n[DEVICE COMPATIBILITY]: Compatible with MacBook 12\\\",MacBook Pro2016/2017/2018/2019,MacBook Air 2018/1019,iPad Pro2018,Chromebook,NINTENDO SWITCH,HUAWEI mate30/mate30 pro,Samsung S10/S9/Note8 /Note 9,HP SpectrePavilion,Huawei Matebook,Dell XPS series, Mi Air and supports Mobile phones and tablets with DP function",
+  "imageName": "61nryXGKMxL._SL1500_.jpg",
+  "price": 342,
+  "status": "Available",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1669561183809"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669561183809"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "639745b1459fd6638b7ec5cb"
+  },
+  "category": "Furniture",
+  "title": "SAUCE ZHAN Lift Top Coffee Table with Storage,",
+  "owner": {
+    "$oid": "6382f02dcd69836f4ca74fb9"
+  },
+  "details": "-- Lift Top Coffee Table --: The tabletop can be raised and downed effortlessly and noiselessly due to the gas spring mechanical device. When sitting on the sofa, there is no need to bend or lean forward to do anything. It&amp;#x27;s great for home office or dining and other multi-functional use.\r\n-- A Large Hidden Storage Space --: There is a large compartment under the lift table for storing things you don&amp;#x27;t want out on the table, such as laptop, magazines, remote controls, snacks, and other clutter.",
+  "imageName": "71z+489QUPL._AC_SX679_.jpg",
+  "status": "Available",
+  "price": 987,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1670858161276"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1670858161276"
     }
   }
 }]
