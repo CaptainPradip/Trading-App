@@ -27,7 +27,6 @@ app.use(
 );
 app.use(flash());
 app.use((req, res, next) => {
-    //console.log(req.session);
     res.locals.user = req.session.user||null;
     res.locals.firstName = req.session.firstName||null;
     res.locals.lastName = req.session.lastName||null;

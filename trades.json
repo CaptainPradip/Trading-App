@@ -1,4 +1,5 @@
-[{
+[
+  {
   "_id": {
     "$oid": "63837af04c933841b6dfe7b8"
   },
@@ -10,6 +11,7 @@
   "details": "Spill Proof Design - For hastle free cooking and a Cleaner Kitchen\\r\\nTri-Pin Burners - For high Efficiency and faster cooking\\r\\nErgonomic Design - For easy handling and Maintainance\\r\\nToughned Black Glass top - Resists Scratches and withstands everyday wear and tear\\r\\n2 Years Manufacturer Warranty\\r\\nMade In India\\r\\nIncludes: 1 x Prestige IRIS LP Gas Stove(GTI 03) With powder coated Body, Glass top, 3 Brass Burners(2 Medium, 1 Small)",
   "imageName": "614Q2qMRVBL._SL1500_.jpg",
   "price": 42,
+  "status":"Available",
   "createdAt": {
     "$date": {
       "$numberLong": "1669561072935"
@@ -32,6 +34,7 @@
   "details": "[CHARGE & SYNC FUNCTION]- This cable comes with charging & Data sync function\\r\\n[HIGH QUALITY MATERIAL]- TPE + Nylon Material to make sure that the life of the cable is enhanced significantly\\r\\n[LONG CORD]- The Cable is extra thick 1.2 meter long, optimized for an easy use for your comfort at home or office\\r\\n[MORE DURABLE]-This cable is unique interms of design and multi-use and is positioned to provide the best comfort and performance while using\\r\\n",
   "imageName": "51kNeFQyBoL._SL1200_.jpg",
   "price": 6323,
+  "status":"Available",
   "createdAt": {
     "$date": {
       "$numberLong": "1669561135038"
@@ -54,6 +57,7 @@
   "details": "[ALL IN ONE]:The 6-in-1 USB-C Hub instantly adds 2x USB 3.0 ports, 1x SD/TF Card Reader, 1x HDMI port, 1xUSB-C Female port and 1x USB-C Male port to your laptop with its convenient Plug-and-Play technology requiring no driver or software installations to work.\\r\\n[55W POWER DELIVERY SUPPORTED]: Equipped with the newest generation super-smart chip, Supports USB-C pass-through 55W charging. Allows USB-C device to be charged while using the USB-C hub at the same time. Our MacBook Pro USB C Adapter is designed to preventing overload, over-voltage, over-current, short circuit, overcharge, voltage regulation, temperature protection, your primary choice of USB C Adapter under safety.\\r\\n[VIDEO & AUDIO OUTPUT]: Mirror or extend your screen with the HDMI port to HDTV, monitor or projector for video and audio transfer. Support 4000x2000 4K@30Hz, and lower resolutions at 60Hz.\\r\\n[RELIABLE DATA TRANSFER]: The 6-in-1 USB-C Hub allows you to seamlessly transfer your data whether it be photos, videos, music and other files through its memory card and thumb drive slots. Connect to your external storage, keyboard, mouse, headset, optical drive, and more.\\r\\n[DEVICE COMPATIBILITY]: Compatible with MacBook 12\\\",MacBook Pro2016/2017/2018/2019,MacBook Air 2018/1019,iPad Pro2018,Chromebook,NINTENDO SWITCH,HUAWEI mate30/mate30 pro,Samsung S10/S9/Note8 /Note 9,HP SpectrePavilion,Huawei Matebook,Dell XPS series, Mi Air and supports Mobile phones and tablets with DP function",
   "imageName": "61nryXGKMxL._SL1500_.jpg",
   "price": 342,
+  "status":"Available",
   "createdAt": {
     "$date": {
       "$numberLong": "1669561183809"
@@ -76,6 +80,7 @@
   "details": "6-in-1 cleaning kit, the 6-piece cleaning contains the essential items necessary for the proper maintenance and care of your optical equipment. It easily cleans dirt and dust. Effectively removes smudges and fingerprints from lenses, LCD and other optics.\\r\\nMultipurpose cleaning kit for digital cameras, DSLR, camcorders, filters, lenses, binoculars, LCD, Laptops and other sensitive electronics, etc\\r\\nIncludes: Powerful dust air blower, 10 cotton swabs, plush Micro-Fiber Cloth (160mm X 160 mm), Suede microfiber cloth (180mm x 155mm), dust removal antistatic cleaning brush, 25 ml lens cleaning solution",
   "imageName": "41GdkPjUtGS.jpg",
   "price": 426,
+  "status":"Available",
   "createdAt": {
     "$date": {
       "$numberLong": "1669561513476"
@@ -98,6 +103,7 @@
   "details": "High Quality Stainless Steel Dish Drainer. Ideal for Storage of wet vessels. The Product in Display is Storage Basket or Dish Drainer Made of Stainless Steel and Finished in Silver Color and Ideal to keep Utensils.\\r\\nStainless steel Handles Gives You Perfect Grip, Very Unique and Attractive Design, Double Wired Circular Support For Superior Strength.",
   "imageName": "41W2vH3qF6S.jpg",
   "price": 546,
+  "status":"Available",
   "createdAt": {
     "$date": {
       "$numberLong": "1669561595500"
@@ -120,6 +126,7 @@
   "details": "1. WORKS LIKE A CHARM: The tip of the cleaning pen acts like a nib to clean the tiny parts and holes of the earplugs.\\r\\n2. SUPERIOR CLEANING: There's a soft microfiber brush just above the nib that goes deep to clean the tiny areas and holes.\\r\\n3. THOUGHTFULLY DESIGNED: At the other end of the pen is a soft, lightweight brush for cleaning the charging bin.\\r\\n4. ALL IN ONE: Clean a full set of wireless earplugs with one pen, from the hole in the earplug to the charging bin.\\r\\n5. LIGHTWEIGHT AND PORTABLE : Pen shape design, light weight, easy to carry.",
   "imageName": "21WPNlCLB-L.jpg",
   "price": 4232,
+  "status":"Available",
   "createdAt": {
     "$date": {
       "$numberLong": "1669561751528"
@@ -142,6 +149,7 @@
   "details": "High Density Brush: This 2-in-1 Cleaning Pen comes with a high density brush that helps clean the sensitive part of your electronic devices, be it the sound output area or the microphone.\\r\\nPrecision Metal Nib: The device has a sharp metal nib which allows covering deep corners and removing dirt from crevices and edges, ensuring a comprehensive cleaning\\r\\nSoft Sponge Brush: The soft sponge brush allows cleaning the inner body of the Earpod carrying case, and ensure that\\r\\nKeyboard Cleaning Brush: The cleaning brush with its soft bristles ensures that no dust particles remain in the devices, giving your electronics longer life and enhanced protection.",
   "imageName": "41j0V5w4zsL._SL1080_.jpg",
   "price": 3425,
+  "status":"Available",
   "createdAt": {
     "$date": {
       "$numberLong": "1669561826811"
@@ -164,6 +172,7 @@
   "details": "UNDER-SHELF ORGANIZER With cupboard space often at a premium, under-shelf organizer design makes use of unused space beneath the shelf. It features a clever, pull-out compartment that holds up to Six standard jars.\\r\\nPerfect for Jars This innovative rack features a clever, pull-out compartment that holds up to Six jars\\r\\nHigh Quality Premium food grade material makes this under cabinet drawer more durable. Easy to clean without absorbing stains or smells. NOTE: CANNOT BE USED IN DISHWASHER. Clean with warm soapy water.",
   "imageName": "717GYnb74cL._SL1500_.jpg",
   "price": 878,
+  "status":"Available",
   "createdAt": {
     "$date": {
       "$numberLong": "1669561896410"

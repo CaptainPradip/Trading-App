@@ -112,7 +112,6 @@
       </tr>
       <%for( category in categories ){ let tradesByCategory =
         tradesWatch.filter((trade)=>trade.watchedTrade.category==categories[category]).sort((t1,t2)=>t1.price-t2.price)
-      // console.log(tradesByCategory..sort((t1,t2)=>t1.title-t2.title));
       tradesByCategory.forEach(trade => { %>
       <tr>
         <td><%= trade.watchedTrade.title %></td>

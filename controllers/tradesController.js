@@ -65,12 +65,17 @@ exports.edit = (req, res, next) => {
 };
 
 exports.update = (req, res, next) => {
-    let trade = req.body;
+    let updateTrade = {
+        category:req.body.category,
+        title:req.body.title,
+        price:req.body.price,
+        details:req.body.details
+    }
     if (req.file && req.file.originalname) {
-        trade.imageName = req.file.originalname;
+        updateTrade.imageName = req.file.originalname;
     }
     let id = req.params.id;
-    trades_service.updateById(id, trade).then((trade) => {
+    trades_service.updateById(id, updateTrade).then((trade) => {
         if (trade) {
             req.flash('success', 'You have successfully updated Trade!!!');
             res.redirect('/trades/' + id);
@@ -91,7 +96,6 @@ exports.update = (req, res, next) => {
 exports.delete = async (req, res, next) => {
     let id = req.params.id;
     let tradeOffer = await tradesOffer_service.findByTradeWithIdOrRequestTradeId(id);
-    console.log(tradeOffer);
     let wishList = await tradesWatch_service.deleteByTradeId(id);
     if(tradeOffer){
         let trade = await tradesOffer_service.deleteByRequestTradeIdAndTradeWithId(tradeOffer.requestTrade._id, tradeOffer.tradeWith._id);
@@ -99,8 +103,6 @@ exports.delete = async (req, res, next) => {
         await trades_service.updateById(tradeOffer.tradeWith._id, { status: "Available" });
     }
     trades_service.deleteById(id).then(async (trade) => {
-        console.log(trade)
-
         if (trade) {
             req.flash('success', 'You have successfully deleted Trade!!!');
             res.redirect('/trades');

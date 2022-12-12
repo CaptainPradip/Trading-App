@@ -19,17 +19,14 @@ body('email','Entered Email is not valid Email Address').isEmail().trim().escape
 body('password', 'Password must be at least 5 characters and at most 30 characters').isLength({min:5, max:30})
 ];
 
-
 exports.validateLogInMiddleware = [body('email','Entered Email is not valid Email Address').isEmail().trim().escape().normalizeEmail(),
 body('password', 'Password must be at least 5 characters and at most 30 characters').isLength({min:5, max:30})];
 
-
 exports.validateTrade = [body('title', 'Title  Should not be Empty!!!').notEmpty().trim().escape(),body('details', 'details Should not be Empty').notEmpty().trim().escape(),
 body('details', 'details Must be at least 10 character!!!').trim().escape().isLength({min:10}),
-body('price', 'price Must be numeric').notEmpty()
-.isNumeric(),
+body('price', 'price Must be not empty').notEmpty(),
+body('price'," Price should not be less than 1").isFloat({ min: 1}),
 ];
-
 
 exports.validateResultMiddleware = (req, res, next) =>{
     let errors = validationResult(req);

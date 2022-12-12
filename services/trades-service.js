@@ -33,13 +33,6 @@ exports.findTradesByOwnerIdAndStatus = (id,status) => {
     return Trade.find({ owner: id ,status:status});
 }
 
-exports.updateOfferTradesById = (id, offerId) => {
-    return Trade.findByIdAndUpdate(
-        id,
-        { $push: { offers: offerId } },
-        { new: true, useFindAndModify: false }
-    );
-}
 exports.deleteById = function (id) {
     return Trade.findOneAndDelete({ _id: id });
 }

@@ -2,7 +2,6 @@
 <section class="category-list">
   <%for( category in categories ){
           let tradesByCategory = trades.filter((trade)=>trade.category==categories[category]).sort((t1,t2)=>t1.price-t2.price)
-      // console.log(tradesByCategory..sort((t1,t2)=>t1.title-t2.title));
           if(tradesByCategory.length){   %>
   <div class="catogory">
     <h1 class="category-heading"><%= categories[category] %></h1>
@@ -12,7 +11,7 @@
       <div class="col-1">
         <div class="card">
           <a href="/trades/<%=tradesByCategory[i].id %>">
-            <img src="images/<%=tradesByCategory[i].imageName %>" alt="" class="card-img" />
+            <img src="/images/<%=tradesByCategory[i].imageName %>" alt="" class="card-img" />
             <h1><%=tradesByCategory[i].title %></h1>
             <p class="price">$<%=tradesByCategory[i].price %></p>
           </a>

@@ -151,7 +151,6 @@ exports.cancelOffer = async (req, res, next) => {
     let userId = req.session.user;
     try {
         let tradeOffer = await tradesOffer_service.findById(id);
-        console.log(tradeOffer);
         if (tradeOffer && (tradeOffer.owner == userId || tradeOffer.requestUser == userId)) {
             let trade = await tradesOffer_service.deleteByRequestTradeIdAndTradeWithId(tradeOffer.requestTrade._id, tradeOffer.tradeWith._id);
             await trades_service.updateById(tradeOffer.requestTrade._id, { status: "Available" });
